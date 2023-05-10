@@ -123,5 +123,17 @@ if __name__ == "__main__":
         print "key = " + b2a_hex(base64.b64decode(track_key["key"]))
         print "pssh = " + track_key["pssh"][0]["data"]
 
+    '''
+    with open("./crypt0.key", "r") as f:
+
+        data = f.read()
+        print len(data)
+        print data
+        print b2a_hex(data)
+    '''
+        
+
+
+
 
 
